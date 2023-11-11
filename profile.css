@@ -1,0 +1,95 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size:larger;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.div-nav1{
+    margin-top: 3ch;
+
+    
+    
+}
+
+.div-nav2{
+    margin-top: 0.5ch;
+    
+    
+   
+}
+div nav div a{
+    color: black;
+    
+}
+.none_underline{
+    text-decoration: none;
+}
+
+.input-group{
+    width: 10cm;
+    height: 1cm;
+}
+
+div nav div logo-name{
+    font-weight: lighter;
+}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .profile-section {
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-section:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #888;
+            margin-bottom: 10px;
+        }
+
+        .order-item {
+            color: #333;
+            margin-bottom: 10px;
+        }

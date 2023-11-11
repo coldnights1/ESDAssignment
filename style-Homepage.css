@@ -1,0 +1,72 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    font-size:larger;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+.div-nav1{
+    margin-top: 3ch;
+
+    
+    
+}
+
+.div-nav2{
+    margin-top: 0.5ch;
+    
+    
+   
+}
+div nav div a{
+    color: black;
+    
+}
+.none_underline{
+    text-decoration: none;
+}
+
+.input-group{
+    width: 10cm;
+    height: 1cm;
+}
+
+div nav div logo-name{
+    font-weight: lighter;
+}
+
+div div .Products {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+div div .float-child {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    border: 1px solid rgb(51, 212, 113);
+} 
+
+div div div .float-child1 {
+    width: 40%;
+    float: left;
+    padding: 20px;
+   
+} 
+
+
+div div .img-class{
+    max-width: 7cm ;
+    max-height:7cm;
+}
+
+div div div ul{
+    font-size: 17px;
+}
+/* --------------- */
+.checked {
+    color: orange;
+  }
+
